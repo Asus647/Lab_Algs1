@@ -10,10 +10,11 @@ radius = 42
 #       пи возьмите равным 3.1415926
 #       точность указывается в функции round()
 # TODO здесь ваш код
-def calc_acircle(r):
+def calc_circle(r):
     pi = 3.1415926
     return round(pi * r ** 2, 4)
 
+print(calc_circle(radius))
 # Далее, пусть есть координаты точки
 point_1 = (23, 34)
 # где 23 - координата х, 34 - координата у
