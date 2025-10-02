@@ -14,3 +14,4 @@ print(result)
 # TODO написать формулу для 1 2 3 4 5 и вывести значение на консоль
 def calc_nums():
     return 1 * (2 + 3) * 4 + 5
+print(calc_nums())

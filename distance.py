@@ -15,7 +15,7 @@ sites = {
 distances = {}
 
 # TODO здесь заполнение словаря
-def calculate():
+def calculate(sites):
     for city1, coords1 in sites.items():
         distances[city1] = {}
         for city2, coords2 in sites.items():

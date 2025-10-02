@@ -4,8 +4,9 @@
         "-s",
         "./tests",
         "-p",
-        "*test.py"
+        "*_test.py"
     ],
-    "python.testing.pytestEnabled": true,
+    "python.testing.cwd": "${Lab_Algs1}/tests",
+    "python.testing.pytestEnabled": false,
     "python.testing.unittestEnabled": true
 }
