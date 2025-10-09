@@ -21,11 +21,11 @@ birds = ['rooster', 'ostrich', 'lark', ]
 def zoo_shaffles():
     zoo = ['lion', 'kangaroo', 'elephant', 'monkey', ]
     birds = ['rooster', 'ostrich', 'lark', ]
-    zoo.Insert(1, 'bear')
+    zoo.insert(1, 'bear')
     print(zoo)
     zoo += birds
     print(zoo)
     zoo.remove('elephant')
     print(zoo)
-    print(f'Номер клетки льва: {zoo.index('lion') + 1}, Номер клетки жаворонка: {zoo.index('lark') + 1}')
-    return ''
+    print(f"Номер клетки льва: {zoo.index('lion') + 1}, Номер клетки жаворонка: {zoo.index('lark') + 1}")
+    return ' '

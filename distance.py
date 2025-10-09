@@ -25,6 +25,5 @@ def calculate(sites):
             distances[city1][city2] = distance
     return distances
 
-print(calculate())
 
 

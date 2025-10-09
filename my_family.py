@@ -22,6 +22,6 @@ my_family_height = [
 #   Общий рост моей семьи - ХХ см
 
 def height():
-    print(f'Рост отца - {my_family_height[0][3]} см')
+    print(f'Рост отца - {my_family_height[2][1]} см')
     print(f'Общий рост моей семьи {sum(item[1] for item in my_family_height)} см')
-    return ''
+    return ' '

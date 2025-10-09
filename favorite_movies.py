@@ -18,4 +18,4 @@ my_favorite_movies = 'Терминатор, Пятый элемент, Ават�
 # TODO здесь ваш код
 def sort_mov():
     print(my_favorite_movies[:10], my_favorite_movies[-15:], my_favorite_movies[12:25], my_favorite_movies[-22:-17])
-    return ''
+    return ' '
